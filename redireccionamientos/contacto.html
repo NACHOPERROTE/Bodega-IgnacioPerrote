@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="headerGeneral">
+           
+            <div class="ingresoNav">
+                <form action="" method="get" target="" class="ingresoNav__formulario">
+                    <input type="text" placeholder="Name" class="ingresoNav__formulario--input">
+                    <input type="password" placeholder="SurName" class="ingresoNav__formulario--input">
+                </form>
+                    <button type="submit" class="btn">Ingreso</button>
+            </div>
+           
+            <div class="logoNav">
+                <img src="../img/logo.png" alt="logopagina" class="logoNav__imagen" >
+            </div>    
+        
+           <div class="redireccionamientosNav">
+              
+                    <input type="checkbox" id="btnMenu">
+                    <label for="btnMenu" class="btnMenu__label"><img src="../img/menu.png" alt="" class="redireccionamientosNav__menu--img"></label>
+                
+                <ul class="redireccionamientosNav__lista">
+                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/vinos.html" target="_BLANK" class="redireccionamientosNav__lista--a">Vinos</a></li>                  
+                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/bodegas.html" target="_BLANK" class="redireccionamientosNav__lista--a">Bodegas</a></li>
+                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/logistica.html" target="_BLANK" class="redireccionamientosNav__lista--a">Logistica</a></li>
+                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/contacto.html" target="_BLANK" class="redireccionamientosNav__lista--a"><b>Contacto</b></a></li>
+                </ul>
+           
+                <a href="../redireccionamientos/compras.html" target="_BLANK" class="redireccionamientosNav__carrito"><img src="../img/carrito2.png" alt="" class="carritoNav__imagen"></a>        
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="mainContacto">
+            <section class="formularioRegistro">
+              
+                <div class="section__datosPersonales">
+
+                    <h1 class="section__datosPersonales--h1">Reistrate aca y Conocenos un poco mas</h1>
+
+                    <form action="" method="get" target="" class="formContacto">
+                        
+                        <div class="formSections">         
+                            <label for="name"><h3 class="formSections__titulo">Nombre</h3></label>
+                            <input type="text" name="name" id="name" required class="formSections__inputs">
+                        </div>
+
+                        <div class="formSections">
+                            <label for="surname"><h3 class="formSections__titulo">Apellido</h3></label>
+                            <input type="text" name="surname" id="surname" required class="formSections__inputs">
+                        </div>
+
+                        <div class="formSections">                  
+                            <label for="email"><h3 class="formSections__titulo">Email</h3></label>
+                            <input type="email" name="email" id="email" required class="formSections__inputs">
+                        </div>
+
+                        <div class="formSections">
+                            <label for="password"><h3 class="formSections__titulo">Contraseña</h3></label>
+                            <input type="password" name="password" id="password" require class="formSections__inputs">
+                        </div>
+
+                        <div class="formSections">
+                            <h3 class="formSections__titulo">Tu experiencia en vinos</h3>
+                            <input type="range" min="0" max="100" step="10">
+                        </div>
+                        
+                        <button type="submit" class="btn">Enviar</button>
+                   
+                    </form>
+
+                </div>
+
+            </section>                         
+
+    </main>
+
+    <footer class="footerGeneral">
+       
+        <div class="footerDatos">
+           <ul class="footerDatos__lista--ul">
+               <li class="footerDatos__listas--li" > <img src="../img/correo.png" alt="" class="footerDatos__listas--img">bodegaperrote@gmail.com</li>
+               <li class="footerDatos__listas--li" > <img src="../img/relefono2.png" alt="" class="footerDatos__listas--img"> 11 5102-5455</li>
+               <li class="footerDatos__listas--li" > <img src="../img/reloj.png" alt="" class="footerDatos__listas--img">De Lunes a Viernes de 9 a 18 hs</li>
+           </ul>
+       </div>
+
+       <div class="footerTexto">        
+           <p class="footerTexto__parrafo">Queda prohibido la venta sin autorizacion legitima de la Bodega</p>
+       </div>
+   
+       <div class="footerRedes">
+   
+           <div class="footerRedes__contenido">
+               <h6 class="footerRedes__titulo--h6">Seguinos en nuestras redes:</h6>
+                 
+
+           <ul class="footerRedes__lista">           
+               <li class="footerRedes__lista--li"> <a href="https://www.instagram.com/" target="_BLANK" class="footerRedes__lista--a">Instagram</a></li>          
+               <li class="footerRedes__lista--li"> <a href="https://es-la.facebook.com/" target="_BLANK" class="footerRedes__lista--a">Facebook</a></li>                     
+               <li class="footerRedes__lista--li"><a href="https://twitter.com/?lang=es" target="_BLANK" class="footerRedes__lista--a">Twiter</a></li>
+           </ul>
+
+           </div>
+       </div> 
+   
+
+</footer>
+
+</body>
+</html>
