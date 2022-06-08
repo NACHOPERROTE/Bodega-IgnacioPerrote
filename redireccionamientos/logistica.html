@@ -6,40 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logistica</title>
     <link rel="shortcut icon" href="../img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <nav class="headerGeneral">
-           
-            <div class="ingresoNav">
-                <form action="" method="get" target="" class="ingresoNav__formulario">
-                    <input type="text" placeholder="Name" class="ingresoNav__formulario--input">
-                    <input type="password" placeholder="SurName" class="ingresoNav__formulario--input">
-                </form>
-                    <button type="submit" class="btn">Ingreso</button>
-            </div>
-           
-            <div class="logoNav">
-                <img src="../img/logo.png" alt="logopagina" class="logoNav__imagen" >
-            </div>    
-        
-           <div class="redireccionamientosNav">
-              
-                    <input type="checkbox" id="btnMenu">
-                    <label for="btnMenu" class="btnMenu__label"><img src="../img/menu.png" alt="" class="redireccionamientosNav__menu--img"></label>
-                
-                <ul class="redireccionamientosNav__lista">
-                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/vinos.html" target="_BLANK" class="redireccionamientosNav__lista--a">Vinos</a></li>                  
-                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/bodegas.html" target="_BLANK" class="redireccionamientosNav__lista--a">Bodegas</a></li>
-                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/logistica.html" target="_BLANK" class="redireccionamientosNav__lista--a">Logistica</a></li>
-                    <li class="redireccionamientosNav__lista--li"><a href="../redireccionamientos/contacto.html" target="_BLANK" class="redireccionamientosNav__lista--a"><b>Contacto</b></a></li>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="../img/logo.png" alt="" class="logoNav__imagen"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="./compras.html">Compras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="./vinos.html">Vino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="./logistica.html">Logistica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="./contacto.html">Contacto</a>
+                  </li>
+                  
                 </ul>
-           
-                <a href="../redireccionamientos/compras.html" target="_BLANK" class="redireccionamientosNav__carrito"><img src="../img/carrito2.png" alt="" class="carritoNav__imagen"></a>        
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="password" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Ingresar</button>
+                </form>
+              </div>
             </div>
-
-        </nav>
+          </nav>
     </header>
 
 <main class="mainLogistica">
@@ -147,6 +152,6 @@
 
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
