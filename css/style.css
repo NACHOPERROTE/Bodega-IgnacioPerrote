@@ -13,7 +13,9 @@ header{
     top: 0px;
 }
 
-/*NAV HEADER GENERAL*/
+/**NAV HEADER GENERAL**/
+
+/**
 
 .headerGeneral {
     display: grid; 
@@ -189,9 +191,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   }
 
 
+  **/
+
 /*Main Index*/
 
 /*Section Excurcion*/
+
+/**
 
 .mainIndex {  display: grid;
     grid-template-columns: 2fr 0.4fr;
@@ -262,9 +268,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     border: 0.1rem solid black;
 }
 
+**/
 
 /*Aside Index*/
 
+/**
 
   .accesosRapidos { grid-area:accesosRapidos;
     height: 100vh;
@@ -340,7 +348,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     }
   }
 
+**/
+
   /*Footer General*/
+
+/**
 
   .footerDatos__listas--img{
       height: 5rem;
@@ -518,6 +530,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     color: white;
 }
 
+**/
 
 /*PAGINA VINOS*/
 
@@ -1552,3 +1565,5 @@ display: none;
 }
 
 }
+
+

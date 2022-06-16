@@ -1,0 +1,132 @@
+/**ejemplo
+
+.ejemplo{
+    color: rebeccapurple;
+
+    &__imagen{
+
+    }
+    &__texto{
+
+    }
+
+    &__lista
+git b
+}
+
+**/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0px; }
+
+/** CAMBIAMOS LA MODIFICACION, APLICANDO IMPORT EN LA PARTE QUE QUERRAMOS CAMBIAR
+
+
+$Ejemplo(class que se modifico en el archivo .scss): red; (en este caso la modificacion era de color)
+en la pagina aplicamos $ejemplo
+
+
+**/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0px; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0px; }
+
+.navbar {
+  background: black;
+  background: -moz-linear-gradient(87deg, black 8%, #9b22c3 52%, black 93%);
+  background: -webkit-linear-gradient(87deg, black 8%, #9b22c3 52%, black 93%);
+  background: linear-gradient(87deg, black 8%, #9b22c3 52%, black 93%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1); }
+
+.logoNav__imagen {
+  height: 8rem;
+  width: 8rem; }
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.642); }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0px; }
+
+.accesosRapidos__imagen--img {
+  height: 10rem;
+  width: 10rem; }
+
+.sectionIndex {
+  background-image: url(../img/fondoindex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.accesosRapidos {
+  background-color: rgba(95, 157, 245, 0.557); }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  position: sticky;
+  top: 0px; }
+
+.footerGeneral {
+  height: 11rem;
+  background: black;
+  background: -moz-linear-gradient(0deg, black 5%, #9b22c3 100%);
+  background: -webkit-linear-gradient(0deg, black 5%, #9b22c3 100%);
+  background: linear-gradient(0deg, black 5%, #9b22c3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#9b22c3",GradientType=1); }
+  .footerGeneral__listaDatos--ul {
+    list-style: none;
+    padding: 0%;
+    display: inline; }
+  .footerGeneral__listaDatos--li {
+    display: inline; }
+  .footerGeneral__lista--img {
+    height: 3rem;
+    width: 3rem; }
+  .footerGeneral__listaRedes {
+    list-style: none;
+    display: inline; }
+  .footerGeneral__listaRedes--li {
+    display: inline; }

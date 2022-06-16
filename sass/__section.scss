@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+.accesosRapidos__imagen--img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.sectionIndex{
+    background-image: url(../img/fondoindex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accesosRapidos{
+    background-color: rgba(95, 157, 245, 0.557);
+}
